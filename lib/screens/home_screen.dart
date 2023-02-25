@@ -18,9 +18,9 @@ class HomeScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text('Darkmode: ${Preferences.isDarkMode}'),
-          Divider(),
+          const Divider(),
           Text('Genero: ${Preferences.gender}'),
-          Divider(),
+          const Divider(),
           Text('Nombre de Usuario: ${Preferences.name}')
         ],
       ),
